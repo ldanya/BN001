@@ -1,0 +1,115 @@
+<ns0:test-suite xmlns:ns0="urn:model.allure.qatools.yandex.ru" start="1545117519546" stop="1545117555910">
+  <description>
+    目标：百年奥莱登录 业务层实现
+    操作：
+        1. setup_class
+                1). 实例化 统一入口类
+                2). 获取登录页面对象
+        2. teardown_class
+                1). 关闭 driver
+        3. test_login
+                1). 根据业务流程
+</description>
+  <name>test_login1</name>
+  <labels/>
+  <test-cases>
+    <test-case start="1545117519546" status="passed" stop="1545117555910">
+      <name>TestLogin.test_login[18610453007-123456-itheima-None]</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="4956-MainThread"/>
+        <label name="host" value="MS-20180906QJYH"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1545117519551" status="passed" stop="1545117519551">
+          <name>实例化登录页面对象</name>
+          <title>实例化登录页面对象</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1545117519551" status="passed" stop="1545117522512">
+          <name>点击我</name>
+          <title>点击我</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1545117522512" status="passed" stop="1545117525744">
+          <name>点击已有账号去登录</name>
+          <title>点击已有账号去登录</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1545117525746" status="passed" stop="1545117555910">
+          <name>开始执行登录测试</name>
+          <title>开始执行登录测试</title>
+          <attachments/>
+          <steps>
+            <step start="1545117525746" status="passed" stop="1545117527593">
+              <name>输入 用户名</name>
+              <title>输入 用户名</title>
+              <attachments/>
+              <steps/>
+            </step>
+            <step start="1545117527593" status="passed" stop="1545117530793">
+              <name>输入 密码</name>
+              <title>输入 密码</title>
+              <attachments/>
+              <steps/>
+            </step>
+            <step start="1545117530793" status="passed" stop="1545117531379">
+              <name>点击 登录按钮</name>
+              <title>点击 登录按钮</title>
+              <attachments/>
+              <steps/>
+            </step>
+            <step start="1545117531379" status="passed" stop="1545117534506">
+              <name>获取昵称</name>
+              <title>获取昵称</title>
+              <attachments/>
+              <steps/>
+            </step>
+            <step start="1545117534506" status="passed" stop="1545117534658">
+              <name>点击 设置</name>
+              <title>点击 设置</title>
+              <attachments/>
+              <steps/>
+            </step>
+            <step start="1545117534658" status="passed" stop="1545117550479">
+              <name>执行拖拽--》发送消息 拖拽到 修改密码</name>
+              <title>执行拖拽--》发送消息 拖拽到 修改密码</title>
+              <attachments/>
+              <steps/>
+            </step>
+            <step start="1545117550479" status="passed" stop="1545117551082">
+              <name>点击 退出</name>
+              <title>点击 退出</title>
+              <attachments/>
+              <steps/>
+            </step>
+            <step start="1545117551082" status="passed" stop="1545117552284">
+              <name>点击 确认退出</name>
+              <title>点击 确认退出</title>
+              <attachments/>
+              <steps/>
+            </step>
+            <step start="1545117552285" status="passed" stop="1545117553606">
+              <name>点击我</name>
+              <title>点击我</title>
+              <attachments/>
+              <steps/>
+            </step>
+            <step start="1545117553606" status="passed" stop="1545117555910">
+              <name>点击已有账号去登录</name>
+              <title>点击已有账号去登录</title>
+              <attachments/>
+              <steps/>
+            </step>
+          </steps>
+        </step>
+      </steps>
+    </test-case>
+  </test-cases>
+</ns0:test-suite>
